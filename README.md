@@ -13,7 +13,7 @@
 
 
 <p align='center'>
-  <b> <a href="https://weisongzhao.github.io">Mathematically surpassing microscopic hardware limits to enable ultrafast, 60 nm resolution in live cells</a></b>
+  <b> <a href="https://weisongzhao.github.io">Mathematically surpassing microscopic hardware limits to enable ultrafast 60 nm resolution in live cells</a></b>
 </p>
 
 <p align='center'>
@@ -41,7 +41,7 @@
 </p>
 
 ## Installation
-- The binary executable files (.exe/.dmg) can be found in the [release](https://github.com/WeisongZhao/Sparse-SIM/releases)
+- The binary executable files (.exe/.app) can be found in the [release](https://github.com/WeisongZhao/Sparse-SIM/releases)
 - /src_unix is the source code for Unix-like systems (including MacOS).
 - /src_win is the source code for Windows systems.
 - Clone/download, and run the `Install.m`
