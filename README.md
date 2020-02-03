@@ -83,15 +83,6 @@
 - v0.2.0 Iterative deblur feature
 - v0.1.0 Sparsity reconstruction core
 
-## Examples for 2D-SIM
-<p align='center'>
-    <img src='sources/34total.gif' width='1000'/>
-</p>
-
-## Examples for SD-SIM
-<p align='center'>
-    <img src='sources/stage2.gif' width='1000'/>
-</p>
 
 # License 
 This software and corresponding methods can only be used for **non-commercial** use, and they are under GNU General Public License as 
