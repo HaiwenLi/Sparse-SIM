@@ -3,7 +3,7 @@
 <p align='left'>
     <a href="https://weisongzhao.github.io/Sparse-SIM/"><img src='https://img.shields.io/badge/Projects-1.0.3-brightgreen.svg' /> </a>
     <a href="https://github.com/WeisongZhao/Sparse-SIM/"><img src='https://img.shields.io/badge/Code-1.0.3-yellow.svg'/> </a>
-     <a href="https://weisongzhao.github.io/"><img src='https://img.shields.io/badge/Paper-Science-red.svg' /> </a>
+     <a href="https://science.sciencemag.org//"><img src='https://img.shields.io/badge/Paper-Science-red.svg' /> </a>
  </p>
 
 <p>
@@ -13,7 +13,7 @@
 
 
 <p align='center'>
-  <b> <a href="https://weisongzhao.github.io">Mathematically surpassing microscopic hardware limits to enable ultrafast 60 nm resolution in live cells</a></b>
+  <b> <a href="https://science.sciencemag.org/">Mathematically surpassing microscopic hardware limits to enable ultrafast 60 nm resolution in live cells</a></b>
 </p>
 
 <p align='center'>
