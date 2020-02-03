@@ -46,7 +46,9 @@
 - /src_win is the source code for Windows systems.
 - Clone/download, and run the `Install.m`
 - Please try help `xxx` to get the API.
->help Sparse_SIM_recon
+```python
+help Sparse_SIM_recon
+```
 
 - Details in the [Document](UserManual.pdf) 
 
