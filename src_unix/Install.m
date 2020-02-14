@@ -1,5 +1,5 @@
 %***************************************************************************
-%                                               Set-up.
+%                                  Set-up.
 % *********************************************************************************
 % This software package is a tool for SIM images reconstruction including
 % xy (2D), xy-t (2D along t aixs), and xy-z (3D)images. It based on the 
@@ -14,13 +14,13 @@
 %  +2*sqrt(lamdbaz)||gxz||_1+ 2*sqrt(lamdbaz)|||gyz||_1+2*sqrt(lamdbal1)|||g||_1}
 % *********************************************************************************
 % Written by WeisongZhao @ zhaoweisong950713@163.com
-% if any bugs is found, please just email me.
+% if any bugs is found, please just email me or put an issue on the github.
 % *********************************************************************************
 % https:/weisongzhao.github.io
 % *********************************************************************************
 % It is a part of publication:
-% Weisong Zhao et al. Mathematically surpassing microscopic hardware limits
-% to enable ultrafast, 60 nm resolution in live cells (2019).
+% Weisong Zhao et al. Extending resolution of structured illumination 
+% microscopy with sparse deconvolution (2020).
 % *********************************************************************************
 %   Copyright  2019 Weisong Zhao et al.
 %
