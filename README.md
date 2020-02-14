@@ -13,7 +13,7 @@
 
 
 <p align='center'>
-  <b> <a href="https://www.nature.com/">Mathematically surpassing microscopic hardware limits to enable ultrafast 60 nm resolution in live cells</a></b>
+  <b> <a href="https://www.nature.com/">Extending resolution of structured illumination microscopy with sparse deconvolution</a></b>
 </p>
 
 <p align='center'>
