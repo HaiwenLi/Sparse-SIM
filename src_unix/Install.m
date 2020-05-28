@@ -8,7 +8,7 @@
 % *********************************************************************************
 % Sparse-SIM algorithm GUI v1.0.3
 % *********************************************************************************
-%% It is able to run under windows 7-10, and should be modified for the Unix systems.
+%% It is able to run under Unix OS, and should be modified for the windows OS.
 % ------------------------------------------------------------------------------------------------
 % argmin_g { ||f-g ||_2^2 +||gxx||_1+||gxx||_1+||gyy||_1+lamdbaz*||gzz||_1+2*||gxy||_1
 %  +2*sqrt(lamdbaz)||gxz||_1+ 2*sqrt(lamdbaz)|||gyz||_1+2*sqrt(lamdbal1)|||g||_1}

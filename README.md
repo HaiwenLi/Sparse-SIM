@@ -47,7 +47,9 @@
 - Clone/download, and run the `Install.m`
 - Please try help `xxx` to get the API.
 ```python
-help Sparse_SIM_recon
+help SparseHessian_core
+help background_estimation
+help Fourier_Oversample
 ```
 
 - Details in the [Document](UserManual.pdf) 
