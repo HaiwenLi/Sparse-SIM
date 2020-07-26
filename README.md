@@ -62,7 +62,7 @@ help Fourier_Oversample
 | :--------:                   | :-----:           |:----:          | :----:          |
 | **Pixel size (nm)**  | For iterative deblur|   ----         |Fit your system|
 | **Wave length (nm)**  | For iterative deblur|   ----         |Fit your system|
-| **Numerical aperture**  | For iterativedeblur|   ----         |Fit your system, and algorithm para.|
+| **Numerical aperture**  | For iterative deblur|   ----         |Fit your system, and algorithm para.|
 | **Sparse iteration times**  | Sparsity recon. iteration times|Over-sampling (Spatial on/ off)|300/100|
 | **Image fidelity**  | Data fidelity |Over-sampling (Spatial on/off)|low/high|
 | **t(z)axial continuity**  |Data continuity in t or z |-----|0~1|
