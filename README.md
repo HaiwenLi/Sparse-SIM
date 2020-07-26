@@ -3,7 +3,7 @@
 <p align='left'>
     <a href="https://weisongzhao.github.io/Sparse-SIM/"><img src='https://img.shields.io/badge/Projects-1.0.3-brightgreen.svg' /> </a>
     <a href="https://github.com/WeisongZhao/Sparse-SIM/"><img src='https://img.shields.io/badge/Code-1.0.3-yellow.svg'/> </a>
-     <a href="https://www.nature.com"><img src='https://img.shields.io/badge/Paper-Nature-black.svg' /> </a>
+     <a href="https://www.nature.com/nbt/"><img src='https://img.shields.io/badge/Paper-Nature%20Biotechnology-black.svg' /> </a>
  </p>
 
 <p>
@@ -13,7 +13,7 @@
 
 
 <p align='center'>
-  <b> <a href="https://www.nature.com/">Extending resolution of structured illumination microscopy with sparse deconvolution</a></b>
+  <b> <a href="https://www.nature.com/nbt/">Overcoming physical resolution limit of structured illumination microscopy with sparse deconvolution</a></b>
 </p>
 
 <p align='center'>
