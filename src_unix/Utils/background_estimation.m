@@ -1,3 +1,4 @@
+function Background = background_estimation(imgs,th,dlevel,wavename,iter)
 %***************************************************************************
 % Background estimation
 %***************************************************************************
@@ -20,10 +21,10 @@
 % https:/weisongzhao.github.io
 %***************************************************************************
 % It is a part of publication:
-% Weisong Zhao et al. Extending resolution of structured illumination
-% microscopy with sparse deconvolution (2020).
-%***************************************************************************
-%   Copyright  2019 Weisong Zhao et al.
+% Weisong Zhao et al. Overcoming physical resolution limit of structured illumination
+% microscopy with sparse deconvolution, Nature Biotechnology, X, XXX-XXX (2020).
+% *********************************************************************************
+%   Copyright 2019~2020 Weisong Zhao et al.
 %
 %    This program is free software: you can redistribute it and/or modify
 %    it under the terms of the GNU General Public License as published by

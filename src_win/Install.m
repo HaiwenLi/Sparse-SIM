@@ -2,7 +2,7 @@
 %                                  Set-up.
 % *********************************************************************************
 % This software package is a tool for SIM images reconstruction including
-% xy (2D), xy-t (2D along t aixs), and xy-z (3D)images. It based on the 
+% xy (2D), xy-t (2D along t axis), and xy-z (3D)images. It based on the 
 % natural transcendental knowledge of fluorescent biological images: 
 % sparsity and continuity along xy-t(z) axises.
 % *********************************************************************************
@@ -19,10 +19,10 @@
 % https:/weisongzhao.github.io
 % *********************************************************************************
 % It is a part of publication:
-% Weisong Zhao et al. Extending resolution of structured illumination 
-% microscopy with sparse deconvolution (2020).
+% Weisong Zhao et al. Overcoming physical resolution limit of structured illumination
+% microscopy with sparse deconvolution, Nature Biotechnology, X, XXX-XXX (2020).
 % *********************************************************************************
-%   Copyright  2019 Weisong Zhao et al.
+%   Copyright 2019~2020 Weisong Zhao et al.
 %
 %    This program is free software: you can redistribute it and/or modify
 %    it under the terms of the GNU General Public License as published by
