@@ -1,10 +1,10 @@
 %***************************************************************************
 %                                  Set-up.
 % *********************************************************************************
-% This software package is a tool for SIM images reconstruction including
-% xy (2D), xy-t (2D along t axis), and xy-z (3D)images. It based on the 
+% This software package is a tool for SIM images reconstruction (including
+% xy (2D), xy-t (2D along t axis), and xy-z (3D) images). It based on the 
 % natural transcendental knowledge of fluorescent biological images: 
-% sparsity and continuity along xy-t(z) axises.
+% sparsity and continuity along xy-t(z) axes.
 % *********************************************************************************
 % Sparse-SIM algorithm GUI v1.0.3
 % *********************************************************************************

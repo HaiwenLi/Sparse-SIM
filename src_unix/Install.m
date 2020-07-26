@@ -1,14 +1,14 @@
 %***************************************************************************
 %                                  Set-up.
 % *********************************************************************************
-% This software package is a tool for SIM images reconstruction including
-% xy (2D), xy-t (2D along t axis), and xy-z (3D)images. It based on the 
+% This software package is a tool for SIM images reconstruction (including
+% xy (2D), xy-t (2D along t axis), and xy-z (3D) images). It based on the 
 % natural transcendental knowledge of fluorescent biological images: 
-% sparsity and continuity along xy-t(z) axises.
+% sparsity and continuity along xy-t(z) axes.
 % *********************************************************************************
 % Sparse-SIM algorithm GUI v1.0.3
 % *********************************************************************************
-%% It is able to run under Unix OS, and should be modified for the Windows OS.
+%% It is able to run under windows 7-10, and should be modified for the Unix systems.
 % ------------------------------------------------------------------------------------------------
 % argmin_g { ||f-g ||_2^2 +||gxx||_1+||gxx||_1+||gyy||_1+lamdbaz*||gzz||_1+2*||gxy||_1
 %  +2*sqrt(lamdbaz)||gxz||_1+ 2*sqrt(lamdbaz)|||gyz||_1+2*sqrt(lamdbal1)|||g||_1}
