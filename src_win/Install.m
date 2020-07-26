@@ -16,7 +16,7 @@
 % Written by WeisongZhao @ zhaoweisong950713@163.com
 % if any bugs is found, please just email me or put an issue on the github.
 % *********************************************************************************
-% https:/weisongzhao.github.io
+% https://weisongzhao.github.io/Sparse-SIM/
 % *********************************************************************************
 % It is a part of publication:
 % Weisong Zhao et al. Overcoming physical resolution limit of structured illumination
