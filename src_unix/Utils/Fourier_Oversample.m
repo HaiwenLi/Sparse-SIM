@@ -36,3 +36,19 @@ function imgfl = Fourier_Oversample( imgstack, n)
 %    You should have received a copy of the GNU General Public License
 %    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 %***************************************************************************
+if nargin < 2 || isempty(n)
+    n=2;
+end
+n = repmat(n,[1,2]);
+for i=1:size(imgstack,3)
+    img=imgstack(:,:,i);
+    imgsz = size(img);
+    sz = imgsz - ~mod(imgsz,2);
+    idx = ceil(sz/2)+1 + (n-1).*floor(sz/2);
+    padsize = [size(img,1)/2,size(img,2)/2];
+    img = padarray(img,ceil(padsize),'symmetric','pre');
+    img = padarray(img,floor(padsize),'symmetric','post');
+    newsz = round(n.*size(img)-(n-1));
+    imgl = fInterp_2D(img, newsz);
+    imgfl(:,:,i) = imgl(idx(1):idx(1)+n(1)*imgsz(1)-1, idx(2):idx(2)+n(2)*imgsz(2)-1);
+end

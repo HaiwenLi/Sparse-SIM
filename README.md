@@ -52,31 +52,32 @@ help background_estimation
 help Fourier_Oversample
 ```
 
-- Details in the [Document](UserManual.pdf) 
+- Details in the [Document](/UserManual.pdf) 
 
-## Parameters: [Wiki](https://github.com/WeisongZhao/Sparse-SIM/wiki/) and [Document](UserManual.pdf) 
+## Parameters: [Wiki](https://github.com/WeisongZhao/Sparse-SIM/wiki/) and [Document](/UserManual.pdf) 
 
 ### Main parameters
 
 | **Parameter**              | **Description**  | **Situations** | **Recommended** |
 | :--------:                   | :-----:           |:----:          | :----:          |
-| **Pixel size (nm)**  | For iterative deblur|   ----         |Fit your system|
-| **Wave length (nm)**  | For iterative deblur|   ----         |Fit your system|
-| **Numerical aperture**  | For iterative deblur|   ----         |Fit your system, and algorithm para.|
-| **Sparse iteration times**  | Sparsity recon. iteration times|Over-sampling (Spatial on/ off)|300/100|
-| **Image fidelity**  | Data fidelity |Over-sampling (Spatial on/off)|low/high|
-| **t(z)axial continuity**  |Data continuity in t or z |-----|0~1|
-| **Sparsity**  |Data sparsity|Artifacts little/much|low/high|
-| **Iterative deblur times**  |  The iteration times of deblur|-----|5-15(LR)/30-50(LW)|
+| **Pixel size (nm)**  | Pixel size (nm) |   ----         |Fit your system|
+| **Wave length (nm)**  | Wave length (nm) |   ----         |Fit your system|
+| **Numerical aperture**  | Effective NA |   ----         |Fit your system, and algorithm para.|
+| **Sparse iteration times**  | Sparsity recon. iteration times|Spatial over-sampling on/ off|300/100|
+| **Image fidelity**  | Data fidelity |           SNR high/low           |low/high|
+| **t(z)axial continuity**  |Data continuity in t or z |t or z sampling rate (slow~fast)|0~1|
+| **Sparsity**  |Data sparsity|SNR high/low|low/high|
+| **Deconvolution times** | The iteration times of deconvolution |-----|5-15(LR)/30-50(LW)|
 
 ### Options:
 - 3D imaging: The input images are whether or not 3D images.
 - GAIN: the brightness of the image can be altered via this control bar.
 - Background: The background estimation level chosen by user. 
-- Iterative deblur: The deconvolution method chosen by user.
+- Deconvolution: The deconvolution method chosen by user.
 - Over-sampling: The over-sampling method chosen by user. 
 
 ## Version
+- v1.0.3 Fully open source!
 - v1.0.3 Another type deconvolution, and over-sampling methods, first officially released version!
 - v0.6.3 Reorder the background estimation
 - v0.6.2 Debug mode
@@ -84,14 +85,13 @@ help Fourier_Oversample
 - v0.5.1 Over-sampling feature and change input file type from `.mat` to `.tif`
 - v0.4.1 Background estimation feature
 - v0.3.0 Algorithm UI
-- v0.2.0 Iterative deblur feature
+- v0.2.0 Full model reconstruction
 - v0.1.0 Sparsity reconstruction core
 
 
 # License 
-This software and corresponding methods can only be used for **non-commercial** use, and they are under GNU General Public License as 
-published by the Free Software Foundation, version 3 of the license.
- 
+This software and corresponding methods can only be used for **non-commercial** use, and they are under GNU General Public License as published by the Free Software Foundation, version 3 of the license.
+
 <p align='center'>
   <img src='sources/HIT.jpg' width='240'/>
   <img src='sources/PKU.jpg' width='240'/>
